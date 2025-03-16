@@ -30,3 +30,24 @@ If you want to reset the password for a user named JohnDoe, the script will prom
 
 Reset Internet Explorer (IE).
 
+Explanation:
+
+@ECHO OFF: This turns off the display of commands in the command prompt window.
+
+RunDll32.exe InetCpl.cpl,ResetIEtoDefaults: This command calls a Windows system utility (RunDll32.exe) to reset Internet Explorer settings to their defaults.
+
+The InetCpl.cpl is the control panel applet for Internet Explorer settings, and ResetIEtoDefaults is the function that performs the reset.
+
+PAUSE: This keeps the command prompt window open after the script runs so you can see any messages before the window closes.
+
+You would see "Press any key to continue..." which allows you to press a key and close the window.
+
+When to Use:
+
+This script is great for a quick reset of Internet Explorer's settings, including:
+
+Default home page
+
+Search engine settings
+
+SSL and security settings
