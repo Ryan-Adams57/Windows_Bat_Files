@@ -27,3 +27,6 @@ If the password reset is successful, it will display a success message. Otherwis
 Example:
 
 If you want to reset the password for a user named JohnDoe, the script will prompt you to enter JohnDoe as the username and then the new password.
+
+Reset Internet Explorer (IE).
+
