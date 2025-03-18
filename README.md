@@ -1,6 +1,6 @@
 # Windows_Bat_Files.
 
-How to Reset Windows Update Using a .bat File.
+1. How to Reset Windows Update Using a .bat File.
 
 This batch file will:
 
@@ -14,7 +14,7 @@ Restart the update services.
 
 Running this batch file should help fix Windows Update issues on your system.
 
-How To Reset A Password for a User through the Command Line.
+2. How To Reset A Password for a User through the Command Line.
 
 What this script does:
 
@@ -28,7 +28,7 @@ Example:
 
 If you want to reset the password for a user named JohnDoe, the script will prompt you to enter JohnDoe as the username and then the new password.
 
-Reset Internet Explorer (IE).
+3. Reset Internet Explorer (IE).
 
 Explanation:
 
