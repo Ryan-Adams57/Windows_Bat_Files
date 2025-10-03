@@ -1,53 +1,45 @@
-# Windows_Bat_Files.
+📁 Windows_Bat_Files
 
-1. How to Reset Windows Update Using a .bat File.
+Quick reference for useful batch scripts on Windows.
 
-This batch file will:
+🔄 1. Reset Windows Update
 
-Stop the relevant Windows Update services.
+What it does:
 
-Rename the SoftwareDistribution and catroot2 folders (which are used for caching update files).
+Stops update services.
 
-Reset the necessary update components using the regsvr32 command.
+Renames SoftwareDistribution and catroot2 folders.
 
-Restart the update services.
+Re-registers update components.
 
-Running this batch file should help fix Windows Update issues on your system.
+Restarts services.
 
-2. How To Reset A Password for a User through the Command Line.
+Use when: Windows Update is stuck or not working.
 
-What this script does:
+🔐 2. Reset User Password
 
-The script will prompt you to enter the username and new password.
+What it does:
 
-It uses the net user command to reset the password for the specified user account.
+Prompts for username and new password.
 
-If the password reset is successful, it will display a success message. Otherwise, it will show an error.
+Uses net user to reset it.
+
+Shows success or error message.
 
 Example:
+Enter JohnDoe → enter new password → password resets.
 
-If you want to reset the password for a user named JohnDoe, the script will prompt you to enter JohnDoe as the username and then the new password.
+Run as: Administrator.
 
-3. Reset Internet Explorer (IE).
+🌐 3. Reset Internet Explorer
 
-Explanation:
+What it does:
 
-@ECHO OFF: This turns off the display of commands in the command prompt window.
+Uses RunDll32.exe to reset IE settings.
 
-RunDll32.exe InetCpl.cpl,ResetIEtoDefaults: This command calls a Windows system utility (RunDll32.exe) to reset Internet Explorer settings to their defaults.
+Keeps the window open with PAUSE.
 
-The InetCpl.cpl is the control panel applet for Internet Explorer settings, and ResetIEtoDefaults is the function that performs the reset.
+Resets:
+Home page, search, SSL, and security settings.
 
-PAUSE: This keeps the command prompt window open after the script runs so you can see any messages before the window closes.
-
-You would see "Press any key to continue..." which allows you to press a key and close the window.
-
-When to Use:
-
-This script is great for a quick reset of Internet Explorer's settings, including:
-
-Default home page
-
-Search engine settings
-
-SSL and security settings
+Use when: IE is misbehaving.
