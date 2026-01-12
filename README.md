@@ -1,45 +1,21 @@
-📁 Windows_Bat_Files
+Five useful scripts you can add to your toolset:
 
-Quick reference for useful batch scripts on Windows.
+Fix-OS-Corruption
 
-🔄 1. Reset Windows Update
+A reliable way to resolve Windows issues by running the built-in Windows repair tools in the correct order.
 
-What it does:
+GPUpdateFullFIX.bat
 
-Stops update services.
+Use this when a Windows PC fails to receive Group Policy settings from its domain controller. It runs all the steps typically required on a workstation to successfully refresh Group Policy—far more comprehensive than a simple gpupdate /force.
 
-Renames SoftwareDistribution and catroot2 folders.
+RESET_IE.bat
 
-Re-registers update components.
+Resets Internet Explorer settings to their defaults, helping resolve common browser-related issues.
 
-Restarts services.
+Reset_Password.bat
 
-Use when: Windows Update is stuck or not working.
+Resets a local Windows user password when standard methods are unavailable.
 
-🔐 2. Reset User Password
+Reset_Windows_Update.bat
 
-What it does:
-
-Prompts for username and new password.
-
-Uses net user to reset it.
-
-Shows success or error message.
-
-Example:
-Enter JohnDoe → enter new password → password resets.
-
-Run as: Administrator.
-
-🌐 3. Reset Internet Explorer
-
-What it does:
-
-Uses RunDll32.exe to reset IE settings.
-
-Keeps the window open with PAUSE.
-
-Resets:
-Home page, search, SSL, and security settings.
-
-Use when: IE is misbehaving.
+Clears and resets Windows Update components to fix common update failures.
