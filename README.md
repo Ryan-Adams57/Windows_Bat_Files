@@ -8,7 +8,9 @@ Scripts are designed for hands-on use by admins and support technicians.
 
 ### System Repair & Maintenance
 Fix common Windows issues and perform cleanup.
+
 Examples:
+
 - Fix-OS-Corruption.bat
 - DiskCleanup.bat
 - Reset_Windows_Update.bat
@@ -16,20 +18,26 @@ Examples:
 
 ### Application Management
 Install, update, or remove applications quickly.
+
 Examples:
+
 - Instaa-It_All.bat
 - Winget-Update-All-Local-Software.bat
 - APP-Deprovisioning-Cyber-CPU.bat
 
 ### Privilege Elevation
 Run scripts with administrative privileges.
+
 Examples:
+
 - Elevation_For_BATCH-CMD-3-Ways.bat
 - PowerShell-Elevation_Methods.ps1
 
 ### User & System Utilities
 Targeted fixes and recovery actions.
+
 Examples:
+
 - Reset_Password.bat
 - RESET_IE.bat
 
