@@ -1,45 +1,37 @@
-Eleven useful scripts you can add to your toolset.
+# Windows Admin Batch & PowerShell Scripts
 
-APP-Deprovisioning-Cyber-CPU.bat
+A small collection of Batch and PowerShell scripts for common Windows administration, repair, and automation tasks.
 
-Automates the deprovisioning of applications on a system, useful for cleanup and standardization tasks.
+Scripts are designed for hands-on use by admins and support technicians.
 
-DiskCleanup.bat
+## Script Categories
 
-Performs a full disk cleanup, removing temporary files, caches, and other unnecessary data.
+### System Repair & Maintenance
+Fix common Windows issues and perform cleanup.
+Examples:
+- Fix-OS-Corruption.bat
+- DiskCleanup.bat
+- Reset_Windows_Update.bat
+- GPUpdateFullFix.bat
 
-Elevation_For_BATCH-CMD-3-Ways.bat
+### Application Management
+Install, update, or remove applications quickly.
+Examples:
+- Instaa-It_All.bat
+- Winget-Update-All-Local-Software.bat
+- APP-Deprovisioning-Cyber-CPU.bat
 
-Demonstrates three different ways to run batch scripts with administrative privileges.
+### Privilege Elevation
+Run scripts with administrative privileges.
+Examples:
+- Elevation_For_BATCH-CMD-3-Ways.bat
+- PowerShell-Elevation_Methods.ps1
 
-Fix-OS-Corruption.bat
+### User & System Utilities
+Targeted fixes and recovery actions.
+Examples:
+- Reset_Password.bat
+- RESET_IE.bat
 
-A reliable way to resolve Windows issues by running built-in repair tools in the correct sequence.
-
-GPUpdateFullFix.bat
-
-Refreshes Windows Group Policy settings comprehensively, far beyond a standard gpupdate /force.
-
-Instaa-It_All.bat
-
-Automates installation of multiple applications in one go, saving time on setup tasks.
-
-PowerShell-Elevation_Methods.ps1
-
-Provides methods to run PowerShell scripts with administrative privileges.
-
-RESET_IE.bat
-
-Resets Internet Explorer to default settings to resolve common browser-related issues.
-
-Reset_Password.bat
-
-Resets a local Windows user password when standard methods are unavailable.
-
-Reset_Windows_Update.bat
-
-Clears and resets Windows Update components to fix common update errors.
-
-Winget-Update-All-Local-Software.bat
-
-Uses Winget to update all installed applications on a Windows system automatically.
+## Notes
+Run scripts as Administrator where required. Review before use.
