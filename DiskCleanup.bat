@@ -8,7 +8,6 @@
 :: ===== Step 0: Start Message =====
 echo =========================================================
 echo Starting Disk Cleanup Script
-echo Author: Ryan-Adams57
 echo =========================================================
 echo.
 
@@ -113,3 +112,4 @@ echo Disk Cleanup Completed Successfully!
 echo Author: Ryan-Adams57
 echo =========================================================
 pause
+
