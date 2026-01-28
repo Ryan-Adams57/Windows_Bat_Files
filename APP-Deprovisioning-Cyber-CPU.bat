@@ -1,5 +1,5 @@
 @echo off
-TITLE TBOK Provisioned APP DEPROVISIONING Script
+TITLE Provisioned APP DEPROVISIONING Script
 cls
 :: Automatically check & get admin rights ::
 @ECHO OFF
@@ -97,3 +97,4 @@ PAUSE
 goto MENU
 :exit
 exit /b 0
+
